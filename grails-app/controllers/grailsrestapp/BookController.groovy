@@ -19,7 +19,6 @@ class BookController {
     }
 
     def fetchBook(Long id) {
-        println id
         respond bookService.fetchBook(id)
     }
 

@@ -109,3 +109,7 @@ grails:
         defaultScope: singleton
     converters:
         encoding: UTF-8
+server:
+    port: 9090
+#    contextPath: '/dtci'
+#    display-name: "Dotrips Common Interface"
